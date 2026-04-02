@@ -47,7 +47,7 @@ const site = {
 
   // --- Comments ---
   comments: {
-    enabled: false,
+    enabled: true,
     provider: "artalk" as const,
     artalk: {
       server: "https://pinglun.wsyblog.cn",
