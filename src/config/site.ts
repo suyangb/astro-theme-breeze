@@ -8,7 +8,7 @@ const site = {
     ogImage: "/og-image.png",
     // HTML lang attribute, affects page language and date formatting
     // Options: "zh-CN", "en", "ja", etc.
-    lang: "zh",
+    lang: "zh-CN",
   },
 
   // --- Navigation ---
