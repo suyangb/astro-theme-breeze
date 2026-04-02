@@ -44,17 +44,11 @@ const site = {
   // --- Comments ---
   comments: {
     enabled: true,
-    provider: "Twikoo" as const,
+    provider: "Artalk" as const,
     artalk: {
       server: "https://twikoo.wsyblog.cn",
     },
   },
-<script>
-  twikoo.init({
-    envId: 'https://twikoo.wsyblog.cn',  // EdgeOne Pages 地址
-    el: '#tcomment'
-  })
-</script>
   // --- Feature Toggles ---
   features: {
     search: true,
