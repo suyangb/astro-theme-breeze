@@ -6,13 +6,10 @@ const site = {
     author: "王苏洋",
     logo: "/logo.svg",
     ogImage: "/og-image.png",
-    // HTML lang attribute, affects page language and date formatting
-    // Options: "zh-CN", "en", "ja", etc.
     lang: "zh-CN",
   },
 
   // --- Navigation ---
-  // subtitle: decorative label shown below the name (uppercase, small text)
   navigation: [
     { name: "Home", subtitle: "Index", href: "/" },
     { name: "Writing", subtitle: "Blog", href: "/posts" },
@@ -30,7 +27,6 @@ const site = {
   // --- Homepage Hero ---
   hero: {
     greeting: "👋 Hello, I'm 王苏洋",
-    // Supports HTML. Use <span class="font-medium text-foreground underline decoration-primary/30"> to highlight keywords
     description:
       'A minimal personal website theme built with <span class="font-medium text-foreground underline decoration-primary/30">Astro</span> and <span class="font-medium text-foreground underline decoration-primary/30">Tailwind CSS</span>.',
     cards: [
@@ -48,9 +44,9 @@ const site = {
   // --- Comments ---
   comments: {
     enabled: true,
-    provider: "twikoo" as const,
-    twikoo: {
-      envId: "https://twikoo.wsyblog.cn", // 替换为你的Twikoo环境ID（腾讯云/vercel等）
+    provider: "artalk" as const,
+    artalk: {
+      server: "https://pinglun.wsyblog.cn",
     },
   },
 
@@ -58,7 +54,6 @@ const site = {
   features: {
     search: true,
     rss: true,
-    // Auto-mark posts as "new" if published within this many days (0 to disable)
     newPostDays: 7,
   },
 
@@ -96,7 +91,6 @@ const site = {
   ],
 
   // --- UI Labels ---
-  // Customize these values to change the text displayed on pages
   labels: {
     postsTitle: "Writing",
     postsDescription: "Notes, thoughts, and technical musings",
