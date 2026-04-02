@@ -4,6 +4,7 @@ createdAt: 2026-01-02
 category: technology
 tags: [markdown, tutorial]
 summary: A guide to all supported Markdown features in Breeze theme.
+draft: true
 ---
 
 This post demonstrates the Markdown features supported by the Breeze theme.
