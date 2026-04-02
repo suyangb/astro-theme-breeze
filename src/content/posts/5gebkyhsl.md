@@ -1,9 +1,9 @@
 ---
-title: 5个简单博客优化思路
-createdAt: 2026-02-23
-category: 随笔
-tags: [优化, ai生成]
-summary: 个人博客要怎么优化，才能提升访客的阅读体验。我试过无数的优化方案，踩过无数的坑，最后发现
+title: 我的第一篇文章
+createdAt: 2025-01-01
+category: technology
+tags: [astro, tutorial]
+summary: 文章简介。
 ---
 
 个人博客要怎么优化，才能提升访客的阅读体验。我试过无数的优化方案，踩过无数的坑，最后发现，最好的优化，从来不是加更多的功能，而是做减法。
