@@ -50,7 +50,7 @@ const site = {
     enabled: true,
     provider: "twikoo" as const,
     twikoo: {
-      envId: "你的Twikoo环境ID", // 替换为你的Twikoo环境ID（腾讯云/vercel等）
+      envId: "https://twikoo.wsyblog.cn", // 替换为你的Twikoo环境ID（腾讯云/vercel等）
     },
   },
 
