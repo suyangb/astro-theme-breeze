@@ -1,7 +1,7 @@
 const site = {
   // --- Site Metadata ---
   meta: {
-    title: "Breeze",
+    title: "王苏洋Blog",
     description: "A minimal Astro theme for personal websites",
     author: "Your Name",
     logo: "/logo.svg",
@@ -23,13 +23,13 @@ const site = {
 
   // --- Social Links ---
   social: [
-    { name: "GitHub", href: "https://github.com/your-username", icon: "mdi:github" },
-    { name: "Email", href: "mailto:hello@example.com", icon: "mdi:email" },
+    { name: "GitHub", href: "https://github.com/suyangb", icon: "mdi:github" },
+    { name: "Email", href: "mailto:1493367306@qq.com", icon: "mdi:email" },
   ],
 
   // --- Homepage Hero ---
   hero: {
-    greeting: "👋 Hello, I'm Breeze",
+    greeting: "👋 Hello, I'm 王苏洋",
     // Supports HTML. Use <span class="font-medium text-foreground underline decoration-primary/30"> to highlight keywords
     description:
       'A minimal personal website theme built with <span class="font-medium text-foreground underline decoration-primary/30">Astro</span> and <span class="font-medium text-foreground underline decoration-primary/30">Tailwind CSS</span>.',
