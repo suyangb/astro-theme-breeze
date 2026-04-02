@@ -44,7 +44,7 @@ const site = {
   // --- Comments ---
   comments: {
     enabled: true,
-    provider: "Artalk" as const,
+    provider: "artalk" as const,
     artalk: {
       server: "https://twikoo.wsyblog.cn",
     },
