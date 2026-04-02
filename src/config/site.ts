@@ -1,15 +1,18 @@
 const site = {
   // --- Site Metadata ---
   meta: {
-    title: "王苏洋Blog",
+    title: "Breeze",
     description: "A minimal Astro theme for personal websites",
-    author: "王苏洋",
+    author: "Your Name",
     logo: "/logo.svg",
     ogImage: "/og-image.png",
-    lang: "zh-CN",
+    // HTML lang attribute, affects page language and date formatting
+    // Options: "zh-CN", "en", "ja", etc.
+    lang: "zh",
   },
 
   // --- Navigation ---
+  // subtitle: decorative label shown below the name (uppercase, small text)
   navigation: [
     { name: "Home", subtitle: "Index", href: "/" },
     { name: "Writing", subtitle: "Blog", href: "/posts" },
@@ -20,13 +23,14 @@ const site = {
 
   // --- Social Links ---
   social: [
-    { name: "GitHub", href: "https://github.com/suyangb", icon: "mdi:github" },
-    { name: "Email", href: "mailto:1493367306@qq.com", icon: "mdi:email" },
+    { name: "GitHub", href: "https://github.com/your-username", icon: "mdi:github" },
+    { name: "Email", href: "mailto:hello@example.com", icon: "mdi:email" },
   ],
 
   // --- Homepage Hero ---
   hero: {
-    greeting: "👋 Hello, I'm 王苏洋",
+    greeting: "👋 Hello, I'm Breeze",
+    // Supports HTML. Use <span class="font-medium text-foreground underline decoration-primary/30"> to highlight keywords
     description:
       'A minimal personal website theme built with <span class="font-medium text-foreground underline decoration-primary/30">Astro</span> and <span class="font-medium text-foreground underline decoration-primary/30">Tailwind CSS</span>.',
     cards: [
@@ -37,22 +41,24 @@ const site = {
 
   // --- Footer ---
   footer: {
-    copyright: "© 2025 王苏洋Blog",
+    copyright: "© 2025 Breeze",
     builtWith: "Built with Astro",
   },
 
   // --- Comments ---
   comments: {
-    enabled: true,
+    enabled: false,
     provider: "artalk" as const,
     artalk: {
-      server: "https://twikoo.wsyblog.cn",
+      server: "https://your-artalk-server.com",
     },
   },
+
   // --- Feature Toggles ---
   features: {
     search: true,
     rss: true,
+    // Auto-mark posts as "new" if published within this many days (0 to disable)
     newPostDays: 7,
   },
 
@@ -90,6 +96,7 @@ const site = {
   ],
 
   // --- UI Labels ---
+  // Customize these values to change the text displayed on pages
   labels: {
     postsTitle: "Writing",
     postsDescription: "Notes, thoughts, and technical musings",
